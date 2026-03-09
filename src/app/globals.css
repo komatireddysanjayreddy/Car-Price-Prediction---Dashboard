@@ -47,6 +47,18 @@ input[type="range"]::-webkit-slider-thumb {
   box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2);
 }
 
+/* Variant spec pills */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 9999px;
+  background: rgba(51, 65, 85, 0.8);
+  padding: 0.125rem 0.625rem;
+  font-size: 0.75rem;
+  color: #cbd5e1;
+}
+
 /* Fade-in animation */
 @keyframes fade-in {
   from { opacity: 0; transform: translateY(12px); }
