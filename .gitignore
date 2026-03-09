@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Model artefacts (large binary files — store in S3/DVC for production)
+model/*.pkl
+model/*.joblib
+eda_plots/

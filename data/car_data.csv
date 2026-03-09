@@ -1,0 +1,151 @@
+id,brand,model,year,mileage,fuel_type,transmission,engine_cc,horsepower,doors,color,condition,price
+1,Toyota,Camry,2022,12000,Petrol,Automatic,2500,203,4,White,Excellent,28500
+2,Toyota,Camry,2020,35000,Petrol,Automatic,2500,203,4,Silver,Good,22000
+3,Toyota,Camry,2018,68000,Petrol,Manual,2500,203,4,Black,Good,16500
+4,Toyota,Camry,2015,110000,Petrol,Automatic,2500,203,4,Blue,Fair,11000
+5,Toyota,Corolla,2023,5000,Petrol,Automatic,1800,139,4,White,Excellent,25000
+6,Toyota,Corolla,2021,22000,Petrol,Automatic,1800,139,4,Red,Good,19500
+7,Toyota,Corolla,2019,55000,Petrol,Manual,1800,139,4,Silver,Good,14500
+8,Toyota,Corolla,2016,95000,Petrol,Manual,1800,139,4,Gray,Fair,9500
+9,Honda,Civic,2022,15000,Petrol,Automatic,1500,158,4,White,Excellent,27000
+10,Honda,Civic,2020,40000,Petrol,Automatic,1500,158,4,Black,Good,21000
+11,Honda,Civic,2018,72000,Petrol,Manual,1500,158,4,Blue,Good,15500
+12,Honda,Civic,2015,120000,Petrol,Manual,1500,158,4,Silver,Fair,10000
+13,Honda,CR-V,2022,18000,Petrol,Automatic,2000,190,4,White,Excellent,34000
+14,Honda,CR-V,2020,45000,Petrol,Automatic,2000,190,4,Gray,Good,27500
+15,Honda,CR-V,2018,80000,Petrol,Automatic,2000,190,4,Black,Good,20500
+16,Honda,CR-V,2015,130000,Diesel,Automatic,2000,190,4,Blue,Fair,14000
+17,BMW,3 Series,2022,10000,Petrol,Automatic,2000,255,4,Black,Excellent,48000
+18,BMW,3 Series,2020,38000,Petrol,Automatic,2000,255,4,White,Good,39000
+19,BMW,3 Series,2018,70000,Petrol,Automatic,2000,255,4,Silver,Good,28000
+20,BMW,3 Series,2015,115000,Petrol,Automatic,2000,255,4,Blue,Fair,18500
+21,BMW,5 Series,2022,8000,Petrol,Automatic,3000,335,4,Black,Excellent,62000
+22,BMW,5 Series,2020,32000,Petrol,Automatic,3000,335,4,White,Good,50000
+23,BMW,5 Series,2018,65000,Petrol,Automatic,3000,335,4,Silver,Good,37000
+24,BMW,5 Series,2015,105000,Diesel,Automatic,3000,335,4,Gray,Fair,24000
+25,Mercedes,C-Class,2022,9000,Petrol,Automatic,2000,255,4,White,Excellent,55000
+26,Mercedes,C-Class,2020,36000,Petrol,Automatic,2000,255,4,Black,Good,44000
+27,Mercedes,C-Class,2018,68000,Petrol,Automatic,2000,255,4,Silver,Good,31000
+28,Mercedes,C-Class,2015,112000,Diesel,Automatic,2000,255,4,Blue,Fair,20000
+29,Mercedes,E-Class,2022,7000,Petrol,Automatic,2500,335,4,Black,Excellent,72000
+30,Mercedes,E-Class,2020,28000,Petrol,Automatic,2500,335,4,White,Good,58000
+31,Mercedes,E-Class,2018,60000,Petrol,Automatic,2500,335,4,Silver,Good,43000
+32,Mercedes,E-Class,2015,98000,Diesel,Automatic,2500,335,4,Gray,Fair,28000
+33,Ford,Mustang,2022,14000,Petrol,Automatic,5000,450,2,Red,Excellent,52000
+34,Ford,Mustang,2020,42000,Petrol,Automatic,5000,450,2,Black,Good,42000
+35,Ford,Mustang,2018,75000,Petrol,Manual,5000,450,2,White,Good,31000
+36,Ford,Mustang,2015,118000,Petrol,Manual,5000,450,2,Yellow,Fair,21000
+37,Ford,F-150,2022,20000,Petrol,Automatic,3500,400,4,White,Excellent,45000
+38,Ford,F-150,2020,50000,Petrol,Automatic,3500,400,4,Black,Good,36000
+39,Ford,F-150,2018,88000,Diesel,Automatic,3500,400,4,Silver,Good,26000
+40,Ford,F-150,2015,135000,Diesel,Manual,3500,400,4,Blue,Fair,17000
+41,Audi,A4,2022,11000,Petrol,Automatic,2000,201,4,White,Excellent,46000
+42,Audi,A4,2020,39000,Petrol,Automatic,2000,201,4,Black,Good,37000
+43,Audi,A4,2018,72000,Petrol,Automatic,2000,201,4,Silver,Good,26000
+44,Audi,A4,2015,115000,Diesel,Automatic,2000,201,4,Gray,Fair,17000
+45,Audi,Q5,2022,13000,Petrol,Automatic,2000,261,4,White,Excellent,58000
+46,Audi,Q5,2020,41000,Petrol,Automatic,2000,261,4,Black,Good,47000
+47,Audi,Q5,2018,78000,Petrol,Automatic,2000,261,4,Silver,Good,34000
+48,Audi,Q5,2015,125000,Diesel,Automatic,2000,261,4,Blue,Fair,22000
+49,Volkswagen,Golf,2022,16000,Petrol,Automatic,1400,148,4,White,Excellent,28000
+50,Volkswagen,Golf,2020,44000,Petrol,Automatic,1400,148,4,Blue,Good,22000
+51,Volkswagen,Golf,2018,76000,Petrol,Manual,1400,148,4,Silver,Good,15500
+52,Volkswagen,Golf,2015,122000,Diesel,Manual,1400,148,4,Black,Fair,10000
+53,Volkswagen,Passat,2022,14000,Petrol,Automatic,1800,178,4,Silver,Excellent,32000
+54,Volkswagen,Passat,2020,45000,Petrol,Automatic,1800,178,4,White,Good,25500
+55,Volkswagen,Passat,2018,80000,Diesel,Automatic,1800,178,4,Gray,Good,18000
+56,Volkswagen,Passat,2015,128000,Diesel,Manual,1800,178,4,Blue,Fair,12000
+57,Hyundai,Elantra,2022,18000,Petrol,Automatic,1600,147,4,White,Excellent,22000
+58,Hyundai,Elantra,2020,48000,Petrol,Automatic,1600,147,4,Black,Good,17000
+59,Hyundai,Elantra,2018,82000,Petrol,Manual,1600,147,4,Silver,Good,12500
+60,Hyundai,Elantra,2015,130000,Petrol,Manual,1600,147,4,Blue,Fair,8000
+61,Hyundai,Tucson,2022,15000,Petrol,Automatic,2000,187,4,White,Excellent,30000
+62,Hyundai,Tucson,2020,46000,Petrol,Automatic,2000,187,4,Gray,Good,24000
+63,Hyundai,Tucson,2018,78000,Diesel,Automatic,2000,187,4,Black,Good,17500
+64,Hyundai,Tucson,2015,125000,Diesel,Manual,2000,187,4,Silver,Fair,11500
+65,Kia,Sportage,2022,17000,Petrol,Automatic,2000,180,4,White,Excellent,28500
+66,Kia,Sportage,2020,47000,Petrol,Automatic,2000,180,4,Black,Good,22500
+67,Kia,Sportage,2018,80000,Petrol,Manual,2000,180,4,Silver,Good,16000
+68,Kia,Sportage,2015,128000,Diesel,Manual,2000,180,4,Blue,Fair,10500
+69,Kia,Sorento,2022,12000,Petrol,Automatic,2500,291,4,Black,Excellent,38000
+70,Kia,Sorento,2020,42000,Petrol,Automatic,2500,291,4,White,Good,30500
+71,Kia,Sorento,2018,75000,Diesel,Automatic,2500,291,4,Silver,Good,22000
+72,Kia,Sorento,2015,120000,Diesel,Automatic,2500,291,4,Gray,Fair,14500
+73,Nissan,Altima,2022,16000,Petrol,Automatic,2500,182,4,White,Excellent,26000
+74,Nissan,Altima,2020,48000,Petrol,Automatic,2500,182,4,Black,Good,20000
+75,Nissan,Altima,2018,82000,Petrol,Manual,2500,182,4,Silver,Good,14000
+76,Nissan,Altima,2015,130000,Petrol,Manual,2500,182,4,Blue,Fair,9000
+77,Nissan,X-Trail,2022,14000,Petrol,Automatic,2500,170,4,White,Excellent,32000
+78,Nissan,X-Trail,2020,44000,Petrol,Automatic,2500,170,4,Gray,Good,25500
+79,Nissan,X-Trail,2018,78000,Diesel,Automatic,2500,170,4,Black,Good,18500
+80,Nissan,X-Trail,2015,125000,Diesel,Manual,2500,170,4,Silver,Fair,12000
+81,Chevrolet,Malibu,2022,19000,Petrol,Automatic,1500,163,4,White,Excellent,24000
+82,Chevrolet,Malibu,2020,50000,Petrol,Automatic,1500,163,4,Black,Good,18500
+83,Chevrolet,Malibu,2018,85000,Petrol,Manual,1500,163,4,Silver,Good,13000
+84,Chevrolet,Malibu,2015,132000,Petrol,Manual,1500,163,4,Blue,Fair,8500
+85,Mazda,CX-5,2022,13000,Petrol,Automatic,2500,187,4,Red,Excellent,33000
+86,Mazda,CX-5,2020,43000,Petrol,Automatic,2500,187,4,White,Good,26500
+87,Mazda,CX-5,2018,77000,Diesel,Automatic,2500,187,4,Silver,Good,19500
+88,Mazda,CX-5,2015,123000,Diesel,Manual,2500,187,4,Black,Fair,13000
+89,Mazda,3,2022,20000,Petrol,Automatic,2000,155,4,White,Excellent,23000
+90,Mazda,3,2020,52000,Petrol,Automatic,2000,155,4,Red,Good,17500
+91,Mazda,3,2018,88000,Petrol,Manual,2000,155,4,Black,Good,12000
+92,Mazda,3,2015,138000,Petrol,Manual,2000,155,4,Silver,Fair,7500
+93,Lexus,ES,2022,9000,Petrol,Automatic,3500,302,4,White,Excellent,48000
+94,Lexus,ES,2020,35000,Petrol,Automatic,3500,302,4,Black,Good,39000
+95,Lexus,ES,2018,65000,Petrol,Automatic,3500,302,4,Silver,Good,28500
+96,Lexus,ES,2015,110000,Petrol,Automatic,3500,302,4,Gray,Fair,19000
+97,Lexus,RX,2022,10000,Petrol,Automatic,3500,295,4,Black,Excellent,58000
+98,Lexus,RX,2020,38000,Petrol,Automatic,3500,295,4,White,Good,47000
+99,Lexus,RX,2018,70000,Petrol,Automatic,3500,295,4,Silver,Good,34000
+100,Lexus,RX,2015,112000,Petrol,Automatic,3500,295,4,Blue,Fair,22000
+101,Toyota,RAV4,2022,11000,Hybrid,Automatic,2500,219,4,White,Excellent,38000
+102,Toyota,RAV4,2020,40000,Hybrid,Automatic,2500,219,4,Black,Good,30500
+103,Toyota,RAV4,2018,74000,Petrol,Automatic,2500,203,4,Silver,Good,22000
+104,Toyota,RAV4,2015,118000,Petrol,Automatic,2500,203,4,Blue,Fair,14500
+105,Tesla,Model 3,2022,14000,Electric,Automatic,0,283,4,White,Excellent,45000
+106,Tesla,Model 3,2021,28000,Electric,Automatic,0,283,4,Black,Good,40000
+107,Tesla,Model 3,2020,45000,Electric,Automatic,0,283,4,Red,Good,35000
+108,Tesla,Model Y,2022,10000,Electric,Automatic,0,384,4,White,Excellent,55000
+109,Tesla,Model Y,2021,25000,Electric,Automatic,0,384,4,Black,Good,49000
+110,Tesla,Model Y,2020,42000,Electric,Automatic,0,384,4,Blue,Good,43000
+111,Porsche,Cayenne,2022,8000,Petrol,Automatic,3000,340,4,White,Excellent,82000
+112,Porsche,Cayenne,2020,30000,Petrol,Automatic,3000,340,4,Black,Good,66000
+113,Porsche,Cayenne,2018,58000,Petrol,Automatic,3000,340,4,Silver,Good,50000
+114,Porsche,Cayenne,2015,95000,Diesel,Automatic,3000,340,4,Gray,Fair,33000
+115,Land Rover,Discovery,2022,12000,Diesel,Automatic,3000,306,4,White,Excellent,75000
+116,Land Rover,Discovery,2020,38000,Diesel,Automatic,3000,306,4,Black,Good,60000
+117,Land Rover,Discovery,2018,68000,Diesel,Automatic,3000,306,4,Silver,Good,44000
+118,Land Rover,Discovery,2015,108000,Diesel,Automatic,3000,306,4,Blue,Fair,28000
+119,Jeep,Wrangler,2022,16000,Petrol,Manual,3600,285,2,Black,Excellent,48000
+120,Jeep,Wrangler,2020,45000,Petrol,Manual,3600,285,2,Green,Good,38500
+121,Jeep,Wrangler,2018,78000,Petrol,Manual,3600,285,2,Red,Good,28000
+122,Jeep,Wrangler,2015,122000,Petrol,Manual,3600,285,2,Yellow,Fair,19000
+123,Subaru,Outback,2022,13000,Petrol,Automatic,2500,182,4,Silver,Excellent,34000
+124,Subaru,Outback,2020,42000,Petrol,Automatic,2500,182,4,Blue,Good,27000
+125,Subaru,Outback,2018,76000,Petrol,Automatic,2500,182,4,White,Good,19500
+126,Subaru,Outback,2015,120000,Petrol,Automatic,2500,182,4,Green,Fair,13000
+127,Volvo,XC60,2022,10000,Petrol,Automatic,2000,250,4,White,Excellent,52000
+128,Volvo,XC60,2020,36000,Petrol,Automatic,2000,250,4,Black,Good,42000
+129,Volvo,XC60,2018,65000,Diesel,Automatic,2000,250,4,Silver,Good,30500
+130,Volvo,XC60,2015,108000,Diesel,Automatic,2000,250,4,Gray,Fair,20000
+131,Toyota,Camry,2021,28000,Petrol,Automatic,2500,203,4,Black,Good,24500
+132,Honda,Accord,2022,12000,Petrol,Automatic,2000,192,4,White,Excellent,32000
+133,Honda,Accord,2020,40000,Petrol,Automatic,2000,192,4,Silver,Good,25500
+134,Honda,Accord,2018,72000,Petrol,Automatic,2000,192,4,Black,Good,18500
+135,BMW,X5,2022,9000,Diesel,Automatic,3000,335,4,Black,Excellent,72000
+136,BMW,X5,2020,34000,Diesel,Automatic,3000,335,4,White,Good,58000
+137,BMW,X5,2018,62000,Diesel,Automatic,3000,335,4,Silver,Good,43000
+138,Mercedes,GLC,2022,11000,Petrol,Automatic,2000,255,4,White,Excellent,62000
+139,Mercedes,GLC,2020,38000,Petrol,Automatic,2000,255,4,Black,Good,50000
+140,Mercedes,GLC,2018,68000,Diesel,Automatic,2000,255,4,Silver,Good,37000
+141,Audi,Q7,2022,10000,Diesel,Automatic,3000,335,4,Black,Excellent,78000
+142,Audi,Q7,2020,36000,Diesel,Automatic,3000,335,4,White,Good,62000
+143,Audi,Q7,2018,65000,Diesel,Automatic,3000,335,4,Silver,Good,46000
+144,Ford,Explorer,2022,15000,Petrol,Automatic,2300,300,4,White,Excellent,42000
+145,Ford,Explorer,2020,45000,Petrol,Automatic,2300,300,4,Black,Good,34000
+146,Ford,Explorer,2018,80000,Petrol,Automatic,2300,300,4,Silver,Good,24500
+147,Chevrolet,Traverse,2022,18000,Petrol,Automatic,3600,310,4,White,Excellent,38000
+148,Chevrolet,Traverse,2020,48000,Petrol,Automatic,3600,310,4,Black,Good,30000
+149,Nissan,Rogue,2022,16000,Petrol,Automatic,2500,170,4,White,Excellent,30000
+150,Nissan,Rogue,2020,46000,Petrol,Automatic,2500,170,4,Gray,Good,23500
