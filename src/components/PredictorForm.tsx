@@ -39,7 +39,7 @@ function buildDefaultForm(): FormState {
     model_name: DEFAULT_MODEL,
     variant: DEFAULT_VARIANT,
     year: 2020,
-    mileage: 50000,
+    mileage: 31000,
     fuel_type: specs?.fuel_type ?? "Petrol",
     transmission: specs?.transmission ?? "Automatic",
     condition: "Good",
@@ -294,8 +294,8 @@ export default function PredictorForm() {
             />
             <RangeSlider
               label="Mileage"
-              value={form.mileage} min={0} max={250000} step={1000}
-              fmt={(v) => `${v.toLocaleString()} km`}
+              value={form.mileage} min={0} max={300000} step={500}
+              fmt={(v) => `${v.toLocaleString()} mi`}
               onChange={(v) => patch("mileage", v)}
             />
           </div>
@@ -383,7 +383,7 @@ export default function PredictorForm() {
               { label: "Model",        value: form.model_name },
               { label: "Variant",      value: form.variant },
               { label: "Year",         value: String(form.year) },
-              { label: "Mileage",      value: `${form.mileage.toLocaleString()} km` },
+              { label: "Mileage",      value: `${form.mileage.toLocaleString()} mi` },
               { label: "Horsepower",   value: `${form.horsepower} hp` },
               { label: "Fuel",         value: form.fuel_type },
               { label: "Transmission", value: form.transmission },

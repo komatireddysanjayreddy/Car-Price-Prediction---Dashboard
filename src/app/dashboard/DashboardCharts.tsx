@@ -131,7 +131,7 @@ export default function DashboardCharts({ brandData, fuelData, scatterData, tren
                 name="Mileage"
                 tick={{ fill: "#94a3b8", fontSize: 11 }}
                 tickFormatter={(v) => `${(v / 1000).toFixed(0)}k`}
-                label={{ value: "Mileage (km)", position: "insideBottom", offset: -4, fill: "#64748b", fontSize: 11 }}
+                label={{ value: "Mileage (mi)", position: "insideBottom", offset: -4, fill: "#64748b", fontSize: 11 }}
               />
               <YAxis
                 dataKey="price"
@@ -148,7 +148,7 @@ export default function DashboardCharts({ brandData, fuelData, scatterData, tren
                   return (
                     <div className="rounded-xl border border-white/10 bg-slate-900 px-4 py-3 shadow-xl text-xs">
                       <p className="font-semibold text-white">{d.brand} ({d.year})</p>
-                      <p className="text-slate-400">Mileage: {d.mileage.toLocaleString()} km</p>
+                      <p className="text-slate-400">Mileage: {d.mileage.toLocaleString()} mi</p>
                       <p className="text-indigo-300">Price: {formatCurrency(d.price)}</p>
                     </div>
                   );

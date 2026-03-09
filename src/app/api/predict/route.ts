@@ -75,7 +75,8 @@ function predictPrice(input: PredictInput): number {
   const carAge = Math.max(0, CURRENT_YEAR - input.year);
   const ageFactor = Math.pow(0.88, carAge);
 
-  const mileagePenalty = Math.max(0.4, 1 - (input.mileage / 10000) * 0.02);
+  // Mileage penalty — every 10 k miles ≈ 3.2 % reduction (calibrated for US miles)
+  const mileagePenalty = Math.max(0.4, 1 - (input.mileage / 10000) * 0.032);
 
   const fuelMult    = FUEL_MULT[input.fuel_type]           ?? 1.0;
   const transMult   = TRANSMISSION_MULT[input.transmission] ?? 1.0;
@@ -106,8 +107,8 @@ export async function POST(request: NextRequest) {
     if (body.year < 1990 || body.year > 2025) {
       return NextResponse.json({ error: "Year must be between 1990 and 2025" }, { status: 400 });
     }
-    if (body.mileage < 0 || body.mileage > 500000) {
-      return NextResponse.json({ error: "Mileage must be between 0 and 500 000" }, { status: 400 });
+    if (body.mileage < 0 || body.mileage > 300000) {
+      return NextResponse.json({ error: "Mileage must be between 0 and 300 000" }, { status: 400 });
     }
 
     const predictedPrice = predictPrice(body);
